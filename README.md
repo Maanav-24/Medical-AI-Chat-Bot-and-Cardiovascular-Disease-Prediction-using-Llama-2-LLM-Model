@@ -1,6 +1,6 @@
-                               Medical AI Chatbot & Cardiovascular Disease Prediction
+## Medical AI Chatbot & Cardiovascular Disease Prediction
 
-# OVERVIEW:
+# 🚀 Project Overview
 
 An intelligent, local-first healthcare assistant that combines natural language understanding with medical document analysis and disease risk prediction.
 
@@ -19,7 +19,7 @@ Built using LLaMA, LangChain, FAISS, and Chainlit, this system enables:
 All components are designed to work locally, ensuring privacy and full control over the pipeline.
 
 
-## 🧰 TECH STACK:
+## 🧰 Tech Stack:
 
 - **🦙 LLaMA (via CTransformers)** – Lightweight local LLM for generating answers.
 - **🧠 LangChain** – Framework for building retrieval-based QA pipelines.
@@ -32,7 +32,7 @@ All components are designed to work locally, ensuring privacy and full control o
 - **📦 Python** – Core language for backend logic and integration.
 
 
-## ⚙️ HOW IT WORKS:
+## ⚙️ How it works:
 
 1. Preprocessing: CSV files are read and converted into plain text format. PDFs are also loaded.
 
@@ -49,7 +49,7 @@ All components are designed to work locally, ensuring privacy and full control o
 5. Live Interaction: Chainlit provides real-time communication between the user and the AI system.
 
 
-## 🚀 GETTING STARTED:
+## 🚀 Getting Started:
 
 1. Place all relevant PDFs and CSVs inside your dataset directory:
 C:/MEDIBOT/dataset/
