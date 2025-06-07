@@ -19,17 +19,18 @@ Built using LLaMA, LangChain, FAISS, and Chainlit, this system enables:
 All components are designed to work locally, ensuring privacy and full control over the pipeline.
 
 
-## 🧰 Tech Stack:
+## 🧰 Tech Stack
 
-- **🦙 LLaMA (via CTransformers)** – Lightweight local LLM for generating answers.
-- **🧠 LangChain** – Framework for building retrieval-based QA pipelines.
-- **📚 FAISS** – Vector store for efficient similarity search on embedded text chunks.
-- **🔤 HuggingFace Embeddings** – Transforms documents into semantic vectors.
-- **💬 Sentence Transformers** – Used for high-quality sentence-level embeddings.
-- **📄 PyPDFLoader & DirectoryLoader** – For loading PDF and CSV (as text) documents.
-- **🌐 Chainlit** – Lightweight UI framework for real-time chatbot interaction.
-- **🐼 Pandas** – For reading and processing structured CSV data.
-- **📦 Python** – Core language for backend logic and integration.
+- **🦙 LLaMA (via CTransformers)** – Lightweight local LLM for generating responses.
+- **🧠 LangChain** – Framework to build retrieval-augmented generation pipelines.
+- **📚 FAISS** – Vector store for efficient semantic search on embedded documents.
+- **🔤 HuggingFace Embeddings** – Converts text into dense vectors for similarity comparison.
+- **💬 Sentence Transformers** – High-quality sentence-level embeddings (`all-MiniLM-L6-v2`).
+- **📄 PyPDFLoader & DirectoryLoader** – For loading and processing PDF and text documents.
+- **📊 XGBoost** – Gradient boosting classifier for cardiovascular disease risk prediction.
+- **🧮 Pandas** – Used for reading and preprocessing structured health data (CSV).
+- **🌐 Chainlit** – Real-time web interface for conversational chatbot interactions.
+- **🐍 Python** – Core language used for backend logic and model orchestration.
 
 
 ## ⚙️ How it works:
